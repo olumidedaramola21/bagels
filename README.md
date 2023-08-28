@@ -46,4 +46,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-*This project is based on on the original "Bagels" game by Al Sweigart. Source: https://github.com/asweigart/the-big-book-of-small-python-projects*
+*This project is based on on the original "Bagels" game by Al Sweigart. Source: https://github.com/asweigart/the-big-book-of-small-python-projects *
+
