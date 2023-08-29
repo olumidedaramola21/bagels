@@ -1,4 +1,4 @@
-from main import NUM_DIGITS
+NUM_DIGITS = 3
 
 
 def get_guess():

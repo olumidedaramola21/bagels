@@ -1,15 +1,15 @@
-def get_clues(guess, secretNum):
+def get_clues(guess, secret_num):
     """Returns a string with the pico, fermi, bagels clues for a guess and the secret number pair"""
-    if guess == secretNum:
+    if guess == secret_num:
         return "You got it"
 
     clues = []
 
     for i in range(len(guess)):
-        if guess[i] == secretNum[i]:
+        if guess[i] == secret_num[i]:
             # A correct digit is in the correct place.
             clues.append("fermi")
-        if guess[i] in secretNum:
+        elif guess[i] in secret_num:
             # A correct digit is in the wrong place.
             clues.append("Pico")
     if len(clues) == 0:
@@ -19,3 +19,7 @@ def get_clues(guess, secretNum):
         clues.sort()
         # Make a single string fgrom the list of clues
         return " ".join(clues)
+
+
+b = get_clues("012", "102")
+print(b)
