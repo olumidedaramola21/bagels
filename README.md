@@ -25,5 +25,3 @@ A deductive logic game where players must guess a secret number based on provide
 ## Contributing
 
 Contributions are welcome! If you find any issues or want to enhance the game, feel free to fork this repository and submit a pull request.
-
----
